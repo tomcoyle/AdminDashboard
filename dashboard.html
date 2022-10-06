@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi+Ink&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav> 
+    <img src="./photos/admin-logo-2.svg" alt="Nav Bar Logo" class="nav-logo">
+    
+    <ul>
+      <li>
+          <i class="fa-solid fa-house nav-item-icon"></i>
+          <p class="nav-item-text">Home</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-user nav-item-icon"></i>
+        <p class="nav-item-text">Profile</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-envelope nav-item-icon"></i>
+        <p class="nav-item-text">Messages</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-clock nav-item-icon"></i>
+        <p class="nav-item-text">History</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-list-check nav-item-icon"></i>
+        <p class="nav-item-text">Tasks</p>
+      </li>
+      <li class="nav-gap">
+        <i class="fa-solid fa-people-line nav-item-icon"></i>
+        <p class="nav-item-text">Community</p>
+      </li>
+      
+      <li>
+        <i class="fa-solid fa-gear nav-item-icon"></i>
+        <p class="nav-item-text">Settings</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-question nav-item-icon"></i>
+        <p class="nav-item-text">Support</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-shield-heart nav-item-icon"></i>
+        <p class="nav-item-text">Privacy</p>
+      </li>
+    </ul>
+    
+  </nav>
+  
+  <section class="main">
+    <div class="overview-container">
+      <h1>Overview</h1>
+      <div class="user-bar">
+        <div class="user-icons">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <!-- <div class="user-profile">
+          
+          
+        </div> -->
+        <h3 class="user-name">Tom Coyle</h3>
+        <div class="user-img">
+          <img src="./photos/bottom-photo-face.jpg" alt="User Profile Picture">
+        </div>
+      </div>
+    </div>
+    
+    <div class="worktop-container">
+      <h2 class="your-projects">Your Projects</h2>
+      <h2 class="announcements">Announcements</h2>
+    
+      <div class="projects-container">
+      
+        <div class="project-card">
+          <div class="title-line">
+            <p class="project-title">Super Cool Project</p>
+            <a href="">View Project</a>
+          </div>
+          <div class="project-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-docker"></i>
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <p class="project-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corporis, neque saepe cumque provident minus officia omnis atque iure vel.</p>
+          <div class="project-links">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="title-line">
+            <p class="project-title">Less Cool Project</p>
+            <a href="">View Project</a>
+          </div>
+          <div class="project-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-docker"></i>
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <p class="project-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsa labore odit obcaecati cupiditate consequuntur commodi cum magnam sit aliquid.</p>
+          <div class="project-links">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="title-line">
+            <p class="project-title">Impossible App</p>
+            <a href="">View Project</a>
+          </div>
+          <div class="project-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-docker"></i>
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fugiat amet magni dolorem. Illum voluptatem fugit dolore, officia maiores sunt.</p>
+          <div class="project-links">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="title-line">
+            <p class="project-title">Easy Peasy App</p>
+            <a href="">View Project</a>
+          </div>
+          <div class="project-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-docker"></i>
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio expedita fugit asperiores dolore tempore odit iure vero facere cum cumque.</p>
+          <div class="project-links">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="title-line">
+            <p class="project-title">Ad Blocker</p>
+            <a href="">View Project</a>
+          </div>
+          <div class="project-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-docker"></i>
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <p class="project-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe et rem consequuntur consectetur veniam qui temporibus modi quas doloribus!</p>
+          <div class="project-links">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="title-line">
+            <p class="project-title">Money Maker</p>
+            <a href="">View Project</a>
+          </div>
+          <div class="project-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-docker"></i>
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <p class="project-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rerum aperiam sit temporibus facere alias placeat quibusdam minima neque distinctio?</p>
+          <div class="project-links">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      <div class="sidebar-container">
+      
+        <div class="announcements-container scroller">
+          <div class="announcement-card">
+            <p class="announcement-title">
+              Site Maintenance
+            </p>
+            <p class="announcement-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum tempore, eos ex harum quasi dolore laudantium corporis quisquam ipsum!
+            </p>
+          </div>
+          
+          <div class="announcement-card">
+            <p class="announcement-title">
+              Community Share Day
+            </p>
+            <p class="announcement-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laborum officia similique voluptas optio perferendis repellat quidem natus eius omnis.
+            </p>
+          </div>
+          
+          <div class="announcement-card">
+            <p class="announcement-title">
+              Updated Privacy Policy
+            </p>
+            <p class="announcement-info">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem distinctio quibusdam architecto amet aliquam dolor voluptatum molestias! Dolore, reiciendis iusto.
+            </p>
+          </div>
+          
+          <div class="announcement-card">
+            <p class="announcement-title">
+              Updated Privacy Policy
+            </p>
+            <p class="announcement-info">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem distinctio quibusdam architecto amet aliquam dolor voluptatum molestias! Dolore, reiciendis iusto.
+            </p>
+          </div>
+          
+          
+        </div>
+        
+        
+        <h2 class="tasks">
+          Your Tasks
+        </h2>
+        
+        <div class="tasks-container">
+        
+          <div class="task-tracker">
+            <div class="tasks-open">
+              <div class="tasks-column">
+                <p class="task-status">Open</p>
+                <p class="task-quantity">3</p>
+              </div>
+            </div>
+            <div class="tasks-new">
+              <div class="tasks-column">
+                <p class="task-status">New</p>
+                <p class="task-quantity">1</p>
+              </div>
+            </div>
+            <div class="tasks-closed">
+              <div class="tasks-column">
+                <p class="task-status">Closed</p>
+                <p class="task-quantity">7</p>
+              </div>
+            </div>
+            <div class="tasks-urgent">
+              <div class="tasks-column">
+                <p class="task-status">Urgent</p>
+                <p class="task-quantity">2</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tasks-list">
+        
+            <div class="task-card">
+              <div class="checkbox-container">
+                <div class="checkbox">
+                  <input type="checkbox" id="checkbox1">
+                  <label for="checkbox1"></label>
+                </div>
+                <p class="task-title">Database project</p>
+              </div>
+              <div class="task-card-status tasks-urgent">URGENT</div>
+            </div>
+            
+            <div class="task-card">
+              <div class="checkbox-container">
+                <div class="checkbox">
+                  <input type="checkbox" id="checkbox2">
+                  <label for="checkbox2"></label>
+                </div>
+                <p class="task-title">Start language app</p>
+              </div>
+              <div class="task-card-status tasks-new">NEW</div>
+            </div>
+            
+            <div class="task-card">
+              <div class="checkbox-container">
+                <div class="checkbox">
+                  <input type="checkbox" id="checkbox3">
+                  <label for="checkbox3"></label>
+                </div>
+                <p class="task-title">Build HTML/CSS dashboard</p>
+              </div>
+              <div class="task-card-status tasks-closed">CLOSED</div>
+            </div>
+            
+            <!-- <div class="task-card">
+              <div class="checkbox-container">
+                <div class="checkbox">
+                  <input type="checkbox" id="checkbox4">
+                  <label for="checkbox4"></label>
+                </div>
+                <p class="task-title">Create responsive portfolio</p>
+              </div>
+              <div class="task-card-status tasks-open">OPEN</div>
+            </div> -->
+          
+          </div>
+          
+          
+        </div>
+        
+      </div>
+    
+    </div>
+  </section>
+  <script src="https://kit.fontawesome.com/1681c0fdff.js" crossorigin="anonymous"></script>
+</body>
+</html>
